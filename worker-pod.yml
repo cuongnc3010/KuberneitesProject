@@ -10,4 +10,6 @@ spec:
   containers:
     - name: worker
       image: dockersamples/examplevotingapp_worker
+      command : ["sleep"]
+      args: ["infinity"]
 ...
